@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
         String hltalgee = JOptionPane.showInputDialog("Ingrese un Numero de 8 digitos HLTALGEE: ");
 
+        //cambio
+
         int hl = Integer.parseInt(hltalgee.substring(0,2));
         int t = Integer.parseInt(hltalgee.substring(2,3));
         int al = Integer.parseInt(hltalgee.substring(3,5));
